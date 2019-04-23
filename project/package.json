@@ -1,0 +1,29 @@
+{
+  "name": "delay-messenger",
+  "version": "1.0.0",
+  "description": "Nodejs delay messenger use Redis as a storage/message-broker.",
+  "main": "server",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "DEBUG=app,express* nodemon server.js",
+    "test": "mocha --exit --timeout 20000 --require tests/bootstrap.js tests/**/*.js"
+  },
+  "author": "Vladimir Klymniuk",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "chai": "^4.2.0",
+    "chai-counting": "^1.0.1",
+    "chai-http": "^4.2.1",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "esm": "^3.2.22",
+    "events": "^3.0.0",
+    "express": "^4.16.4",
+    "express-async-handler": "^1.1.4",
+    "file-system": "^2.2.2",
+    "ioredis": "^4.9.0",
+    "mocha": "^6.1.4",
+    "validate": "^4.5.1"
+  }
+}
