@@ -2,11 +2,20 @@
 
 Nodejs delay messenger use Redis as a storage/message-broker.
 
+## Application requirements - [here](https://github.com/vklymniuk/delay-messenger/blob/master/REQUIREMENTS.md).
+
 
 Run local environment via docker
 
 ```bash
 bash docker/run-compose.sh
+```
+
+Environment variables
+```text
+PORT= input port
+WORKER_INTERVAL= Workers interval to poll for new message from redis  
+REDIS_URI= 'redis://redis:6379'
 ```
 
 Message processing states order. (success workflow)

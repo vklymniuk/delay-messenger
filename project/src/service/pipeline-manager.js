@@ -2,7 +2,7 @@ const redis = require('../../redis');
 const events = require("../events/types");
 const eventEmitter = require("../events/event-emitter");
 const MessageEvent = require("../events/types/message-event");
-const PipelineMessageSchema = require("../modeles/pipeline-message-schema");
+const PipelineMessageSchema = require("../models/pipeline-message-schema");
 const {logError, logDebug} = require('../../logger');
 
 /**

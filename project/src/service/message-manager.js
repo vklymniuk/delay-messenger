@@ -2,7 +2,7 @@ const redis = require("../../redis");
 const events = require("../events/types");
 const eventEmitter = require("../events/event-emitter");
 const MessageEvent = require("../events/types/message-event");
-const MessageSchema = require("../modeles/message-schema");
+const MessageSchema = require("../models/message-schema");
 const crypto = require("crypto");
 const {logError} = require('../../logger');
 
