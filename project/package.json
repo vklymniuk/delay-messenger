@@ -25,6 +25,7 @@
     "file-system": "^2.2.2",
     "ioredis": "^4.9.0",
     "mocha": "^6.1.4",
-    "validate": "^4.5.1"
+    "validate": "^4.5.1",
+    "lodash": ">=4.17.12"
   }
 }
